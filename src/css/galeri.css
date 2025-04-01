@@ -8,7 +8,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    margin-bottom:5rem;
 }
 
 .galeri h2 {font-size: 2rem;
@@ -20,13 +20,16 @@
     
 }
 
+
+
 .galeri .foto #foto1 {
   width: 20rem;
-    height: 15rem;
+    height: 18rem;
     object-fit: cover;
     border-radius: 5%;
     box-shadow: var(--shadow-md);
-   
+    object-fit: cover;
+    object-position: center calc(50% - 4rem);
 }
 
 .galeri .foto #foto2 {
@@ -45,6 +48,64 @@
     border-radius: 5%;
     box-shadow: var(--shadow-md);
     margin-top: 1rem;
+    object-fit: cover;
+    object-position: center calc(50% - 3.8rem);
+}
+
+.galeri .foto #foto4 {
+  width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: var(--shadow-md);
+    margin-top: 1rem;
+    object-fit: cover;
+    object-position: center calc(50% - 4.2rem);
+}
+
+.galeri .foto #foto5 {
+  width: 20rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: var(--shadow-md);
+    margin-top: 1rem;
+    object-fit: cover;
+    object-position: center calc(50% - 4rem);
+}
+
+.galeri .foto #foto6 {
+  width: 20rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: var(--shadow-md);
+    margin-top: 1rem;
+    object-fit: cover;
+    object-position: center calc(50% - 4rem);
+}
+
+.galeri .foto #foto8 {
+  width: 20rem;
+    height: 19rem;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: var(--shadow-md);
+    margin-top: 1rem;
+    object-fit: cover;
+    object-position: center calc(50% - 4rem);
+}
+
+.galeri .foto #foto10 {width: 20rem;
+    height: 19rem;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: var(--shadow-md);
+    margin-top: 1rem;
+    object-fit: cover;
+    object-position: center calc(50% - 4rem);
+  
+    margin-bottom: 4rem;
 }
 
 .galeri .container {
@@ -55,10 +116,13 @@
     position: relative;
 }
 
-.galeri .container h2, .galeri div:nth-of-type(2) h2 {
-    font-family: var(--sacramento);
-    font-size: var(--fontSize-heading-base);
-    font-weight: 400;
+.galeri .container h2, .galeri div:nth-of-type(2) h2 {font-size: 2rem;
+    font-family: "Crimson Text";
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-style:italic;
+    color: #fff;
+    
     padding: 2rem 1rem;
 }
 
@@ -141,6 +205,7 @@
     border-radius: 20px;
     margin-top: 1rem;
     transition: var(--transition-small);
+    
 }
 
 .galeri .container button:nth-of-type(3):hover {
